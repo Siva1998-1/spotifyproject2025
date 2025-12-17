@@ -1,0 +1,9 @@
+{
+	"name": "spotifyproject2025",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5fdbf12d-52ba-49a0-a434-bea02a57a02f",
+		"tenantId": "37d8363b-05ac-459d-99bc-77212e8b4adf"
+	}
+}

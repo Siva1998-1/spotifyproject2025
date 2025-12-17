@@ -72,7 +72,7 @@
 								"type": "Expression"
 							},
 							"folder": {
-								"value": "Users",
+								"value": "@concat(pipeline().parameters.schema,'/',pipeline().parameters.table)",
 								"type": "Expression"
 							},
 							"file": {

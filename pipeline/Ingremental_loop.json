@@ -159,14 +159,9 @@
 						{
 							"name": "IfIncrementData",
 							"type": "IfCondition",
-							"dependsOn": [
-								{
-									"activity": "AzureSQLTODataLake",
-									"dependencyConditions": [
-										"Succeeded"
-									]
-								}
-							],
+							"state": "Inactive",
+							"onInactiveMarkAs": "Succeeded",
+							"dependsOn": [],
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
